@@ -14,7 +14,7 @@
   font-size: 40px;
   color: orange;
   text-shadow: 2px 2px 5px grey;
-  animation: shake infinite 5s linear;
+  animation: shake infinite 1.5s linear;
 }
 @keyframes shake {
   10%, 90% {
@@ -39,6 +39,8 @@
 }
 
 .card {
+  animation: shake infinite 2.5s linear;
+  box-shadow: 2px 2px 4px gray;
   padding: 10px;
   margin: 10px;
 }
